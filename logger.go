@@ -134,7 +134,7 @@ func (l *logger) Error(ctx context.Context, msg string, data ...interface{}) {
 
 // getLoggerCallerInfo 日志调用者信息 -- 文件名, 行号
 func getLoggerCallerInfo() string {
-	_, file, line, ok := runtime.Caller(3)
+	_, file, line, ok := runtime.Caller(2)
 	if !ok {
 		return ""
 	}
