@@ -16,7 +16,7 @@ httptool 是一个简单易用的 HTTP 客户端工具包，提供了丰富的�
 ## 安装
 
 ```bash
-go get github.com/yourusername/httptool
+go get github.com/jayzyc/httptool
 ```
 
 ## 快速开始
