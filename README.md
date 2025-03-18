@@ -24,7 +24,7 @@ go get github.com/yourusername/httptool
 ### 基本 GET 请求
 
 ```go
-import "github.com/yourusername/httptool"
+import "github.com/jayzyc/httptool"
 
 func main() {
     ctx := context.Background()
